@@ -1,0 +1,7 @@
+body{
+	background-image:url("scene.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center right;
+    background-size:260px 140px;
+}

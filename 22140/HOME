@@ -1,0 +1,13 @@
+<DOCTYPE! html>
+    <html>
+        <title>HOME</title>
+        <head>
+
+        </head>
+        <body> 
+            <h2>HOME</h2>
+            <p>HTML stands for Hyper Text Markup Language. It is used to design web pages using a markup language. HTML is an abbreviation of Hypertext and Markup language. Hypertext defines the link between the web pages. The markup language is used to define the text document within the tag which defines the structure of web pages. HTML 5 is the fifth and current version of HTML. It has improved the markup available for documents and has introduced application programming interfaces (API) and Document Object Model (DOM). </p><br>
+            <br><p>HTML5 is the latest standard of Hypertext Markup Language, the code that describes the structure and presentation of web pages.
+                  It’s made up of three codes: HTML, which keeps the structure; CSS, which affects the presentation; and JavaScript, which creates interactive effects within web browsers.</p>
+        </body>
+    </html>

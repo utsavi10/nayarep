@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html> <body>
+<nav>
+  <a href="/html/">HTML</a> |
+  <a href="/css/">CSS</a> |
+  <a href="/js/">JavaScript</a> |
+  <a href="/jquery/">jQuery</a>
+</nav>
+<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+<figure> 
+<img src="scene.jpg" alt="Shadow of Mordor" width=60 heigth=80 /> 
+<figcaption>Cover art for Middle-earth: Shadow of Mordor</figcaption>
+ </figure>
+
+<aside>
+  <h4>Epcot Center</h4>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+<details>
+  <summary>Epcot Center</summary>
+  <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</details>
+
+
+
+<h1>The audio element</h1>
+<p>Click on the play button to play a sound:</p>
+<audio controls><!--control is the attribute-->
+  <source src="mixkit-angry-dragon-growl-309.wav" type="audio/wav">
+  <source src="mixkit-angry-dragon-growl-309" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
+
+<h1>The video element</h1>
+
+<video width="500" height="300" controls autoplay muted>
+  <source src="Ice Age Dawn of the Dinosaurs.2009.720p.BrRip.x264.YIFY.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML canvas tag.</canvas>
+
+<!--<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "30px Dubai";
+ctx.fillText("Hello World",10,50);
+</script>-->
+
+<canvas id="myCanvas" width="300" height="150" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+var my_gradient = ctx.createLinearGradient(0,0,170, 0,);
+my_gradient.addColorStop(0.1, "black");
+my_gradient.addColorStop(0.4, "blue");
+my_gradient.addColorStop(0.5, "black");
+ctx.fillStyle = my_gradient;
+ctx.fillRect(0, 0, 150, 600);
+</script>
+
+
+
+</body>
+</html>
+
